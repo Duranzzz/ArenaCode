@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	definir n Como Real
+	escribir "Ingrese un numero: "
+	leer n
+
+	si (n%2=0) Entonces
+		escribir "Tu numero es divisible entre 2"
+	SiNo
+		si n%3=0 entonces
+			escribir "tu numero es divisible entre 3"
+		sino
+			si n%5=0 Entonces
+				Escribir "Tu  numero es divisible entre 5"
+				
+			FinSi
+		FinSi
+		 
+	FinSi
+	
+	si n%3=0 y n%5=0 entonces 
+		Escribir "Tu numero es divisible entre 5 y 3 al mismo tiempo"
+	SiNo
+		escribir "error de calculo"
+	finsi 
+FinAlgoritmo
